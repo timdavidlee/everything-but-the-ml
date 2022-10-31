@@ -14,7 +14,7 @@ nav:
 - FileSystems: sys.md
 - AWS: 
     - Buckets: aws/buckets.md
-    - Boto Library: aws/buckets.md
+    - Boto Library: aws/boto.md
 - Bash/Shell:
     - Quality of Life Installs: bash/quality-of-life.md
     - Types of Linux: bash/linux-types.md
@@ -35,5 +35,17 @@ nav:
 - SSH:
     - Getting into a VM: ssh/let-me-in.md
     - Tunneling to a VM: ssh/tunneling.md
-
+- Python:
+    - Managing Python:
+        - Versions and Envs: python/versions-and-envs.md
+        - Managing Pip: python/pip.md
+    - Processing Efficiently:
+        - Collections: python/collections.md
+        - Parallel Processing: python/parallel_processing.md
+        - List Comprehensions: python/list_comprehensions.md
+        - Generators: python/generators.md
+        - Data Classes: python/dataclasses.md
+    - Organization:
+        - Testing: python/pytest.md
+        - Type Hinting: python/linting.md
 
