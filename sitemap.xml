@@ -106,6 +106,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/python/dataclasses/</loc>
+         <lastmod>2022-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/generators/</loc>
          <lastmod>2022-10-31</lastmod>
          <changefreq>daily</changefreq>
@@ -122,6 +127,11 @@
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/parallel_processing/</loc>
+         <lastmod>2022-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/python/pip/</loc>
          <lastmod>2022-10-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
