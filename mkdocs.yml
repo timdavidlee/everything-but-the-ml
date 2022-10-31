@@ -6,9 +6,9 @@ theme:
 nav:
 - Home: index.md
 - Core System: sys.md
-- Git: git.md
 - Airflow: airflow/intro.md
-- VIM: Basic file editng: vim/basics.md
+- VIM: 
+    - Basic file editng: vim/basics.md
 - API/RESTFUL: api.md
 - HTTP: http.md
 - FileSystems: sys.md
@@ -18,7 +18,7 @@ nav:
 - Bash/Shell:
     - Quality of Life Installs: bash/quality-of-life.md
     - Types of Linux: bash/linux-types.md
-    - Command Line "Fu": piping.md
+    - Command Line "Fu": bash/piping.md
 - Data Formats:
     - CSV: data-formats/csv.md
     - json: data-formats/json.md
@@ -26,7 +26,7 @@ nav:
     - pickle: data-formats/pickle.md
 - Docker:
     - Why docker?: docker/intro.md
-    - Docker Basics: docker/
+    - Docker Basics: docker/basics.md
     - Building Images: docker/building_images.md
 - Git:
     - Getting other's code: git/cloning-basics.md
