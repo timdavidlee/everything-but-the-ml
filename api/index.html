@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-an-api-what-is-restful" class="md-skip">
+        <a href="#api-restful-webhook" class="md-skip">
           Skip to content
         </a>
       
@@ -310,9 +310,77 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#dear-data-scientist" class="md-nav__link">
+    Dear Data scientist,
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API:
+  </a>
+  
+    <nav class="md-nav" aria-label="API:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-vocab" class="md-nav__link">
+    Key Vocab:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#most-common-format-for-payloads-are" class="md-nav__link">
+    Most common format for payloads are:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-great-app-to-help-troubleshoot-api" class="md-nav__link">
+    A great app to help troubleshoot API:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restful" class="md-nav__link">
+    RESTFul
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webhooks" class="md-nav__link">
+    Webhooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-are-protocol-buffers-and-why-should-i-care" class="md-nav__link">
     What are protocol buffers, and why should i care?
   </a>
+  
+    <nav class="md-nav" aria-label="What are protocol buffers, and why should i care?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grpc" class="md-nav__link">
+    gRPC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1082,9 +1150,77 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#dear-data-scientist" class="md-nav__link">
+    Dear Data scientist,
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API:
+  </a>
+  
+    <nav class="md-nav" aria-label="API:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-vocab" class="md-nav__link">
+    Key Vocab:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#most-common-format-for-payloads-are" class="md-nav__link">
+    Most common format for payloads are:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-great-app-to-help-troubleshoot-api" class="md-nav__link">
+    A great app to help troubleshoot API:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restful" class="md-nav__link">
+    RESTFul
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webhooks" class="md-nav__link">
+    Webhooks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-are-protocol-buffers-and-why-should-i-care" class="md-nav__link">
     What are protocol buffers, and why should i care?
   </a>
+  
+    <nav class="md-nav" aria-label="What are protocol buffers, and why should i care?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grpc" class="md-nav__link">
+    gRPC
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1103,8 +1239,57 @@
                   
 
 
-<h1 id="what-is-an-api-what-is-restful">What is an API, what is RESTFUL?</h1>
-<h3 id="what-are-protocol-buffers-and-why-should-i-care">What are protocol buffers, and why should i care?</h3>
+<h1 id="api-restful-webhook">API, RESTFUL, Webhook?</h1>
+<h4 id="dear-data-scientist">Dear Data scientist,</h4>
+<p>There are two common situations every team + model will struggle with:</p>
+<ol>
+<li>Scraping or collecting enough data to train on</li>
+<li>Providing a flexible interface to show your wonderful trained model. There's a lot of the world that does not run on python!</li>
+</ol>
+<p>Understanding APIs will help you , get data from outside sources
+<strong>Designing</strong> APIs will let you share your predictive services to the world</p>
+<h2 id="api">API:</h2>
+<p>To retrieve information or perform a function, an <strong><code>API</code></strong> helps you communicate what you want to that system so it can understand and fulfill the request.  API as a mediator between the users or clients and the resources or web services they want to get.</p>
+<p>Another advantage of an API is that you don’t have to know the specifics of caching—how your resource is retrieved or where it comes from.</p>
+<h4 id="key-vocab">Key Vocab:</h4>
+<ul>
+<li><strong>Request</strong>: when a client (phone, web browser, computer) asks for data, its a <code>request</code><ul>
+<li>"Send me the front page of the web"</li>
+<li>"What's the last thing i ordered?"</li>
+<li>"Can you give me my latest emails?"</li>
+</ul>
+</li>
+<li><strong>Payload</strong>: when a server (bit website, centralized database) returns the answer its typically referred to as a <code>payload</code></li>
+<li><strong>Polling</strong>: when a client checks in with a server to see if any <code>state</code> as changed:<ul>
+<li>new address for a user</li>
+<li>did a payment come through?</li>
+<li>has my package been shipped?</li>
+</ul>
+</li>
+</ul>
+<h4 id="most-common-format-for-payloads-are">Most common format for payloads are:</h4>
+<ul>
+<li>raw text</li>
+<li>json [see json lesson]</li>
+</ul>
+<h4 id="a-great-app-to-help-troubleshoot-api">A great app to help troubleshoot API:</h4>
+<p><a href="https://www.postman.com/downloads/">Postman</a></p>
+<h2 id="restful">RESTFul</h2>
+<pre><code>Representational State Transfer (REST)
+</code></pre>
+<h2 id="webhooks">Webhooks</h2>
+<p>A webhook is an HTTP-based callback function that allows lightweight, event-driven communication between 2 APIs. Webhooks are used by a wide variety of web apps to receive small amounts of data from other apps. These are often referred to as <code>reverse APIs</code> or <code>push APIs</code></p>
+<h2 id="what-are-protocol-buffers-and-why-should-i-care">What are protocol buffers, and why should i care?</h2>
+<blockquote>
+<p>Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler.</p>
+</blockquote>
+<ul>
+<li>Work with all languages</li>
+<li>Designed to make very small + compact messages</li>
+</ul>
+<h3 id="grpc">gRPC</h3>
+<p><a href="https://grpc.io/">https://grpc.io/</a></p>
+<p>Is another way to connect services together that can run on any environment</p>
 
 
 

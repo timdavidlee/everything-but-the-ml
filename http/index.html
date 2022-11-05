@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#http" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -292,10 +297,63 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          HTTP
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         HTTP
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-quick-example-of-what-raw-http-looks-like-using-telnet" class="md-nav__link">
+    A quick example of what raw HTTP looks like using telnet
+  </a>
+  
+    <nav class="md-nav" aria-label="A quick example of what raw HTTP looks like using telnet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-long-do-clients-wait-for-an-answer-or-response" class="md-nav__link">
+    How long do clients wait for an answer or response?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typical-status-codes" class="md-nav__link">
+    Typical Status codes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1034,6 +1092,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-quick-example-of-what-raw-http-looks-like-using-telnet" class="md-nav__link">
+    A quick example of what raw HTTP looks like using telnet
+  </a>
+  
+    <nav class="md-nav" aria-label="A quick example of what raw HTTP looks like using telnet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-long-do-clients-wait-for-an-answer-or-response" class="md-nav__link">
+    How long do clients wait for an answer or response?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typical-status-codes" class="md-nav__link">
+    Typical Status codes
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1048,9 +1143,78 @@
                   
 
 
-  <h1>HTTP</h1>
+<h1 id="http">HTTP</h1>
+<p>What the internet is built on</p>
+<p><code>Hypertext Transfer Protocol</code> or <strong>HTTP</strong> is the text-based protocol used to pass information between browser and server over the Internet. First, let's figure out how to make a simple request of a Web server and see what it gives us back.</p>
+<ul>
+<li>the most common design <code>[HTTP/1.1]</code> was released in 1997 </li>
+<li>the more current one  <code>[HTTP/2]</code> was released in 2015, but adoption has been slow</li>
+</ul>
+<p>Say we visit <code>www.cnn.com</code>, the computer will send the following command:</p>
+<pre><code>GET /index.html HTTP/1.1
+Host: www.cnn.com
+</code></pre>
+<h3 id="a-quick-example-of-what-raw-http-looks-like-using-telnet">A quick example of what raw <code>HTTP</code> looks like using <code>telnet</code></h3>
+<p>On a mac, install <code>telnet</code> a very old and simple way of remotely connecting to another computer</p>
+<pre><code class="language-sh">$ brew install telnet
+</code></pre>
+<p><strong>Step 1:</strong> Open a connection</p>
+<pre><code class="language-sh">$ telnet google.com 80
 
+&gt;&gt;&gt; Trying 142.250.191.46...
+    Connected to google.com.
+    Escape character is '^]'.
+</code></pre>
+<p><strong>Step 2:</strong> Try a GET command</p>
+<pre><code class="language-sh">$ telnet google.com 80
 
+&gt;&gt;&gt; Trying 142.250.191.46...
+    Connected to google.com.
+    Escape character is '^]'.
+
+$ GET / HTTP/1.1
+</code></pre>
+<p><em>Hit return twice</em></p>
+<p><strong>Step 3:</strong> Examine the payload that has been returned</p>
+<pre><code>GET / HTTP/1.1
+
+HTTP/1.1 200 OK
+Date: Sat, 05 Nov 2022 19:12:33 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP=&quot;This is not a P3P policy! See g.co/p3phelp for more info.&quot;
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: 1P_JAR=2022-11-05-19; expires=Mon, 05-Dec-2022 19:12:33 GMT; path=/; domain=.google.com; Secure
+Set-Cookie: AEC=AakniGOqX69BBMv6PuuhoFDRbt7_ykU-FfvhRphXWDg8Nc0Zs2VPBceieQA; expires=Thu, 04-May-2023 19:12:33 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=511=c8Hk5s4BQl-X_WJU0E43Cxgl1PpuHBPNK_NM7n1QFAwoQYn-2fa7O9leqpnjv3v610d47q47KFEU6LTNeDSdyBXTbP-J_ZtAFLpAHw9SWc8dAw8AxLXpPrlW7vshchjHbZ-1JLp9jUDevfi1hwYcpgKqBqUDzYs0q5ozYRtuiVg; expires=Sun, 07-May-2023 19:12:33 GMT; path=/; domain=.google.com; HttpOnly
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+5b66
+&lt;!doctype html&gt;... (then a lot of HTML + JAVASCRIPT here... )
+</code></pre>
+<p>A few observations:</p>
+<p><code>HTTP/1.1 200 OK</code>:
+- <code>HTTP/1.1</code> was returned to us
+- <code>200</code> - is the internet status for a successful request
+- <code>OK</code> - is another status that lets us know the request was ok.</p>
+<h5 id="how-long-do-clients-wait-for-an-answer-or-response">How long do clients wait for an answer or response?</h5>
+<p>This will vary depending on settings, but on many internet browsers, this is typically set (and can be modified) to <code>30s</code></p>
+<h3 id="typical-status-codes">Typical Status codes</h3>
+<p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">Status Codes - Wikipedia</a></p>
+<p>There's a lot codes, but here are some common ones:</p>
+<ul>
+<li><code>200 OK</code>: Standard response for successful HTTP requests</li>
+<li><code>400 Bad Request</code>: Usually this means the client asked the wrong way, or was missing a required field</li>
+<li><code>403 Forbidden</code>: Either the client hasn't logged in, or passed proper security to ask a question</li>
+<li><code>404 Not Found</code>: was asking for something that doesn't exist</li>
+<li><code>500 Internal Server Error</code>: this usually means the client did everything ok, but the server had some error in processing the question</li>
+<li><code>503 Service Unavailable</code>: this is similar, the servers could be overloaded answering everyone else's questions, and cannot get to yours</li>
+</ul>
 
 
 
