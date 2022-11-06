@@ -1,2 +1,0 @@
-# Common Types of Linux
-

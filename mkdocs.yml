@@ -15,10 +15,10 @@ nav:
 - AWS: 
     - Buckets: aws/buckets.md
     - Boto Library: aws/boto.md
-- Bash/Shell:
-    - Quality of Life Installs: bash/quality-of-life.md
-    - Types of Linux: bash/linux-types.md
-    - Command Line "Fu": bash/piping.md
+- Linux/Shell:
+    - Quality of Life Installs: linux/quality-of-life.md
+    - Types of Linux: linux/linux-types.md
+    - Command Line "Fu": linux/piping.md
 - Data Formats:
     - CSV: data-formats/csv.md
     - json: data-formats/json.md

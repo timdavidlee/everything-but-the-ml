@@ -1,10 +1,14 @@
 # Everything But the Machine Learning
 
+This site was inspired by linkedin's [school of sre](https://linkedin.github.io/school-of-sre/)
+
 ### School of Machine Learning Engineering
 
-This is an entry-level course designed to equip new `machine learning engineers` and `data scientists` with all the supporting non-ml tech skills to do technical jobs effectively. Too many a `data-science` contributer has flailed about trying to get into a server, or struggled at simple shell commands to peek into text files.
+This is an entry-level course designed to equip new `machine learning engineers` and `data scientists` with all the **supporting non-ml tech skills** to do technical jobs effectively. Too many a `data-science` contributer has flailed about trying to get into a server, or struggled at simple shell commands to peek into text files.
 
 ### The goal:
+
+Your machine models should not be blocked because you don't know how to copy your files, where to put things, or where to get data!
 
 - **YES**:
     - getting around file systems + moving stuff
@@ -21,18 +25,4 @@ This is an entry-level course designed to equip new `machine learning engineers`
     - model algorithms covered
     - data science metrics or scoring discussed
 
-
-# Contributing:
-
-## Running the docs locally:
-
-```
-$ mkdocs serve
-```
-
-## Deploying to github
-
-```
-$ mkdocs gh-deploy
-```
  

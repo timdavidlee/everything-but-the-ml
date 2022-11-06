@@ -2,6 +2,12 @@
 
 #### and their cousins TSV (tab-separated-files)
 
+`CSV` files are everywhere and can be read by any program ranging from:
+
+- python
+- microsoft excel
+- java
+- text editors
 
 ### CSV
 
@@ -50,7 +56,7 @@ Gloves\t2011-02-07\t"Harry's Hands"\t
 
 ## Perils, Troubles, and Caveats
 
-##### 1. Not Quoted correctly:
+#### 1. Not Quoted correctly:
 
 One of the biggest issues with the file format is when the values conflict with delimiter.
 
@@ -73,7 +79,46 @@ Note that the quoting wasn't added correctly, so the computer program will try t
 
 And typically any method being used to read the file will error out.
 
+#### 2. Wrong Separator:**
+
+Just because the file is named `.csv` doesn't mean the separator is actually a `,`. Sometimes its a `\t`(tab), sometimes its a semicolon (`;`). Be sure to peek at the file before trying to load it in!
+
+
+#### 3. Heading isn't data**
+
+When the text data looks like this:
+
+```
+Num1,Num2,Num3,Num4
+1,2,3,4
+```
+
+Some program will require you to specify `row 1 are HEADERS not DATA`
+
+#### 4. Headers don't match the data**
+
+The simplest error, 
+
+```
+Data1,Data2,Data3
+1,A,B,C
+2,D,E,F
+3,G,H,I
+```
+
+The above only has 3 column headers, but the data has 4 values. **This usually happens because of a header-less index.** Look at the table below. Some data representations will have a `row-id` like index or counter, that doesn't write a header column when going to file
+
+|??|Data1|Data2|Data3|
+|--|---|----|---|
+|1|A|B|C|
+|2|D|E|F|
+|3|G|H|I|
+
+
+
 ## Python notes on CSV
+
+Python out of the box comes with a `csv` library with some helpful tools:
 
 [Base python csv library docs](https://docs.python.org/3/library/csv.html)
 
@@ -84,7 +129,8 @@ csv.QUOTE_ALL
 Instructs writer objects to quote all fields.
 
 csv.QUOTE_MINIMAL
-Instructs writer objects to only quote those fields which contain special characters such as delimiter, quotechar or any of the characters in lineterminator.
+Instructs writer objects to only quote those fields which contain special characters
+such as delimiter, quotechar or any of the characters in lineterminator.
 
 csv.QUOTE_NONNUMERIC
 Instructs writer objects to quote all non-numeric fields.
@@ -92,7 +138,9 @@ Instructs writer objects to quote all non-numeric fields.
 Instructs the reader to convert all non-quoted fields to type float.
 
 csv.QUOTE_NONE
-Instructs writer objects to never quote fields. When the current delimiter occurs in output data it is preceded by the current escapechar character. If escapechar is not set, the writer will raise Error if any characters that require escaping are encountered.
+Instructs writer objects to never quote fields. When the current delimiter occurs in output
+data it is preceded by the current escapechar character. If escapechar is not set,
+the writer will raise Error if any characters that require escaping are encountered.
 ```
 
 Example:
