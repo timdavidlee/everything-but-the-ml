@@ -2,182 +2,197 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/api/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/http/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/sys/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/airflow/intro/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/aws/boto/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/aws/buckets/</loc>
-         <lastmod>2022-11-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://timdavidlee.github.io/everything-but-the-ml/bash/linux-types/</loc>
-         <lastmod>2022-11-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://timdavidlee.github.io/everything-but-the-ml/bash/piping/</loc>
-         <lastmod>2022-11-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://timdavidlee.github.io/everything-but-the-ml/bash/quality-of-life/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/data-formats/csv/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/data-formats/json/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/data-formats/parquet/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/data-formats/pickle/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/data-formats/text-encoding/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/docker/basics/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/docker/building_images/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/docker/intro/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/git/branches/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/git/cloning-basics/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/git/repo-level-actions/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/common-qs/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/file-permissions/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/helper_scripts/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/linux-types/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/piping/</loc>
+         <lastmod>2022-11-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timdavidlee.github.io/everything-but-the-ml/linux/quality-of-life/</loc>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/collections/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/dataclasses/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/generators/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/linting/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/list_comprehensions/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/parallel_processing/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/pip/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/pytest/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/python/versions-and-envs/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/ssh/let-me-in/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/ssh/tunneling/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/tools-installs/keyboard-shortcuts/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/tools-installs/terminal/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/tools-installs/text-editors/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timdavidlee.github.io/everything-but-the-ml/vim/basics/</loc>
-         <lastmod>2022-11-05</lastmod>
+         <lastmod>2022-11-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
