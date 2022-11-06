@@ -79,12 +79,12 @@ Note that the quoting wasn't added correctly, so the computer program will try t
 
 And typically any method being used to read the file will error out.
 
-#### 2. Wrong Separator:**
+#### 2. Wrong Separator:
 
 Just because the file is named `.csv` doesn't mean the separator is actually a `,`. Sometimes its a `\t`(tab), sometimes its a semicolon (`;`). Be sure to peek at the file before trying to load it in!
 
 
-#### 3. Heading isn't data**
+#### 3. Heading isn't data
 
 When the text data looks like this:
 
