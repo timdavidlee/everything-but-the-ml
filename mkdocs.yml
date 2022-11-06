@@ -5,20 +5,26 @@ theme:
     name: material
 nav:
 - Home: index.md
+- Linux/Shell:
+    - Quality of Life Installs: linux/quality-of-life.md
+    - Types of Linux: linux/linux-types.md
+    - Command Line "Fu": linux/piping.md
+- Text Editing: 
+    - Basic file editing in VI: vim/basics.md
+- Git:
+    - Getting other's code: git/cloning-basics.md
+    - Repo-Level Commands: git/repo-level-actions.md
+    - Contributing: git/branches.md
+- SSH:
+    - Getting into a VM: ssh/let-me-in.md
+    - Tunneling to a VM: ssh/tunneling.md
 - Core System: sys.md
-- Airflow: airflow/intro.md
-- VIM: 
-    - Basic file editng: vim/basics.md
 - API/RESTFUL: api.md
 - HTTP: http.md
 - FileSystems: sys.md
 - AWS: 
     - Buckets: aws/buckets.md
     - Boto Library: aws/boto.md
-- Linux/Shell:
-    - Quality of Life Installs: linux/quality-of-life.md
-    - Types of Linux: linux/linux-types.md
-    - Command Line "Fu": linux/piping.md
 - Data Formats:
     - CSV: data-formats/csv.md
     - json: data-formats/json.md
@@ -28,13 +34,6 @@ nav:
     - Why docker?: docker/intro.md
     - Docker Basics: docker/basics.md
     - Building Images: docker/building_images.md
-- Git:
-    - Getting other's code: git/cloning-basics.md
-    - Repo-Level Commands: git/repo-level-actions.md
-    - Contributing: git/branches.md
-- SSH:
-    - Getting into a VM: ssh/let-me-in.md
-    - Tunneling to a VM: ssh/tunneling.md
 - Python:
     - Managing Python:
         - Versions and Envs: python/versions-and-envs.md
@@ -48,4 +47,4 @@ nav:
     - Organization:
         - Testing: python/pytest.md
         - Type Hinting: python/linting.md
-
+- Airflow: airflow/intro.md

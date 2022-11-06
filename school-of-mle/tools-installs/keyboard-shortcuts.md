@@ -11,3 +11,7 @@ These are keyboard shortcuts that will help in any terminal, in many text editor
 ## MacOSX
 
 `Command + Spacebar` bring up the spotlight search
+
+`Command + C` copy
+`Command + X` cut
+`Command + V` paste

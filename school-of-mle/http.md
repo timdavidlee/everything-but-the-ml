@@ -82,9 +82,9 @@ A few observations:
 
 ##### How long do clients wait for an answer or response?
 
-This will vary depending on settings, but on many internet browsers, this is typically set (and can be modified) to `30s`
+This will vary depending on settings, but on many internet browsers, this is typically set (and can be modified) to `30s`q
 
-### Typical Status codes
+### Typical Status codes: How to understand the language of the internet
 
 [Status Codes - Wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 
@@ -97,3 +97,22 @@ There's a lot codes, but here are some common ones:
 - `500 Internal Server Error`: this usually means the client did everything ok, but the server had some error in processing the question
 - `503 Service Unavailable`: this is similar, the servers could be overloaded answering everyone else's questions, and cannot get to yours
 
+Here's a quick example, lets visit this url:
+
+```
+https://www.google.com/my-name-is-bob
+```
+
+As should be completely evident, this is not a real website. Visiting this site in a browser will result in the following:
+
+```
+404. That’s an error.
+
+The requested URL /my-name-is-bob was not found on this server. That’s all we know.
+```
+
+
+### What about HTTP 2:?
+
+--Placeholder--
+[too much information](https://kinsta.com/learn/what-is-http2/)
