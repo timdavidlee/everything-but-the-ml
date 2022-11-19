@@ -1,6 +1,7 @@
 # Everything But the Machine Learning
 
-This site was inspired by linkedin's [school of sre](https://linkedin.github.io/school-of-sre/)
+The doc site is found here: [https://timdavidlee.github.io/everything-but-the-ml/](https://timdavidlee.github.io/everything-but-the-ml/)
+
 
 ### School of Machine Learning Engineering
 
@@ -26,3 +27,6 @@ Your machine models should not be blocked because you don't know how to copy you
     - data science metrics or scoring discussed
 
  
+ ### References
+
+ This site was inspired by Linkedin's Open source material school of SRE [school of sre](https://linkedin.github.io/school-of-sre/))
