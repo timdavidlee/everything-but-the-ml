@@ -1,5 +1,9 @@
 # JSON
 
+## TLDR
+
+- `json` is a common file format used all over the internet for sending data between services + systems
+- it is NOT a tabular dataset (rows and columns), but is extremely lightweight + freeform
 
 ### Json Basics
 
@@ -71,7 +75,7 @@ When written to a text file, the following should be checked:
 
 ### Json Daily Usage
 
-**Storing data:** 
+**Example: Storing data:** 
 
 The following json records visits by a user, for this design, only when data is available is data filled in. This prevents a lot of "empty columns" when saving records with sparse fields. This looser restriction is wonderful for prototyping + working with services
 
@@ -85,7 +89,7 @@ The following json records visits by a user, for this design, only when data is 
 }
 ```
 
-**Storing Configuration settings**
+**Example: Storing Configuration settings**
 
 ```jsjon
 {
@@ -102,7 +106,7 @@ The following json records visits by a user, for this design, only when data is 
 }
 ```
 
-**Receiving a response**
+**Example: Receiving a response for a web service**
 
 Here's example from the twitter api:[docs](https://developer.twitter.com/en/docs/twitter-api/data-dictionary/example-payloads)
 

@@ -3,6 +3,14 @@ site_name: School of Machine Learning Engineering, without the Algos
 docs_dir: school-of-mle
 theme:
     name: material
+    palette:
+        primary: teal
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 nav:
 - Home: index.md
 - Linux/Shell:
@@ -35,6 +43,7 @@ nav:
     - Docker Basics: docker/basics.md
     - Building Images: docker/building_images.md
 - Python:
+    - Why is python so slow: python/python-is-slow.md
     - Managing Python:
         - Versions and Envs: python/versions-and-envs.md
         - Managing Pip: python/pip.md

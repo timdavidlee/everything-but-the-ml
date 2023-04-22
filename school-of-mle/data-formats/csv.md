@@ -1,6 +1,19 @@
 # The big boring article on comma-separated files (CSVs)
 
-#### and their cousins TSV (tab-separated-files)
+... and their cousins TSV (tab-separated-files)
+
+## TLDR
+
+Because so much of the world still uses `csv` file format, its important to know 
+
+- the different variants of `csv` formats
+- writing clean `csv` text files to prevent others from having data reading issues
+- complications reading in `csv` files because of poor writing, data corruptions
+    - usually having free-text in data
+    - not properly enclosing items with quotes
+
+
+## Introduction
 
 `CSV` files are everywhere and can be read by any program ranging from:
 

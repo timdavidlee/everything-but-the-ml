@@ -21,3 +21,9 @@ This is an entry-level course designed to equip new `machine learning engineers`
     - model algorithms covered
     - data science metrics or scoring discussed
 
+
+## Links
+
+Repo: 
+
+Github Hosted Site: [https://timdavidlee.github.io/everything-but-the-ml/](https://timdavidlee.github.io/everything-but-the-ml/)
